@@ -1,6 +1,6 @@
 import http from "k6/http"
 
-let Protocol = "http//"
+let Protocol = "http://"
 let Host = "internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com"
 let API_city = "/V2/movies/search"
 
