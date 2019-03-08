@@ -7,7 +7,7 @@ let API_city = "/v2/movies/search"
 
 export let options = {
     vus: 1,
-    duration: "410"
+    duration: "10s"
   };
   
 export default function() {
