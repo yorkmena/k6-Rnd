@@ -14,7 +14,7 @@ const NumberOfAllCities = 10;
 const isIncludeAllCities = true; // run test with only top cities or not?
 const dates = 10; // number of future days (including today) for which you want to run test.
 var count = 0;
-var language = [hi-IN,bn-IN, or-IN, mr-IN, ml-IN, kn-IN, ta-IN, te-IN, gu-IN, pa-IN]
+var language = ["hi-IN", "bn-IN", "or-IN", "mr-IN", "ml-IN", "kn-IN", "ta-IN", "te-IN", "gu-IN", "pa-IN"];
 
 /**
  * Reads userId's from userids.csv file. which fetch data user personilization redis server.
