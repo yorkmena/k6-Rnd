@@ -125,16 +125,17 @@ export default function(data) {
     
     var baseurl = `${Protocol}${Host}${searchV2API}`
 
-    console.log(`${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true`);
-    let responses = http.batch([
+    //console.log(`${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true`);
+    let responses_moviecode = http.batch([
         `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}`,
         `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}`,
         `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}`,
         `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true`
       ]);
-      check(responses[0], {
+      check(responses_moviecode[0], {
         "check response code": res => res.status === 200,
       });
+
     // url = Protocol+Host+searchV2API+"city=" +randomTcity+ "&moviecode=" +randomMovieCode;
      //url = Protocol+Host+searchV2API+"city=" +randomTcity+ "&moviecode=" +randomMovieCode+ "&fromdate=" +date
      //url = Protocol+Host+searchV2API+"city=" +randomTcity+ "&moviecode=" +randomMovieCode+ "&customerId=" +randomUser+ "&groupResult=" +true
@@ -144,11 +145,19 @@ export default function(data) {
     
     //var res = http.get(url);
     //console.log(JSON.stringify(res.body));
+    let responses_cinemacode = http.batch([
+      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}`,
+      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}`,
+      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}`,
+      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true`
+    ]);
+    check(responses_cinemacode[0], {
+      "check response code": res => res.status === 200,
+    });
 
     //var url2 = `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=+${randomUser}&groupResult=true`
     //console.log(url2);
     //counter = counter+1;
-    sleep(1);
     //console.log("*********************");
     //var res = http.get(url2);
     //console.log(JSON.stringify(res.body));
