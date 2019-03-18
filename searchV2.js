@@ -2,7 +2,6 @@ import http from "k6/http"
 import {sleep} from "k6";
 import * as utils from './utils.js';
 import { check } from "k6";
-import { lang } from "moment";
 
 /**
  * customizable paramerers 
@@ -15,7 +14,7 @@ const NumberOfAllCities = 10;
 const isIncludeAllCities = true; // run test with only top cities or not?
 const dates = 10; // number of future days (including today) for which you want to run test.
 var count = 0;
-var lang = [hi-IN,bn-IN, or-IN, mr-IN, ml-IN, kn-IN, ta-IN, te-IN, gu-IN, pa-IN]
+var language = [hi-IN,bn-IN, or-IN, mr-IN, ml-IN, kn-IN, ta-IN, te-IN, gu-IN, pa-IN]
 
 /**
  * Reads userId's from userids.csv file. which fetch data user personilization redis server.
@@ -115,7 +114,7 @@ export default function(data) {
     }
 
     if(count%5 == 0){
-      locale = lang[Math.floor(Math.random() * lang.length)]
+      locale = language[Math.floor(Math.random() * language.length)]
     }
     else{
       locale = "en-IN";
