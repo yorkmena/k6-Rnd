@@ -102,7 +102,7 @@ export function setup() {
  */
 export default function(data) {
     //console.log("Inside default function");
-    //var count = `${__ITER}`;  
+    var count = `${__ITER}`;  
     count = count +1;
     var locale;
 
@@ -122,11 +122,7 @@ export default function(data) {
       locale = "en-IN";
     }
       console.log(locale);
-    //console.log(`VU: ${__VU}  -  ITER: ${__ITER}`);
-    //console.log(`VU: ${__VU}`);
-    //console.log(randomTcity);
-    
-    //console.log(JSON.stringify(data));
+
     var randomUser = csvData.data[Math.floor(Math.random() * csvData.data.length)].id;
     var randomMovieCode =  data.data[randomTcity].movie_id[Math.floor(Math.random() * data.data[randomTcity].movie_id.length)];
     var randomCinemaCode =  data.data[randomTcity].cinema_id[Math.floor(Math.random() * data.data[randomTcity].cinema_id.length)];
@@ -136,40 +132,25 @@ export default function(data) {
 
     //console.log(`${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`);
     let responses_moviecode = http.batch([
-        `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}`,
+        `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&locale=${locale}`,
         `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&locale=${locale}`,
-        `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}`,
+        `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&locale=${locale}`,
         `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`
       ]);
       check(responses_moviecode[0], {
         "check response code": res => res.status === 200,
       });
 
-      /*
+      
     let responses_cinemacode = http.batch([
-      `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}`,
-      `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}`,
+      `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&locale=${locale}`,
+      `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}&locale=${locale}`,
       `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&locale=${locale}`,
       `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`
     ]);
     check(responses_cinemacode[0], {
       "check response code": res => res.status === 200,
     });
-*/
-    //var url2 = `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=+${randomUser}&groupResult=true`
-    //console.log(url2);
-    //counter = counter+1;
-    //console.log("*********************");
-    //var res = http.get(url2);
-    //console.log(JSON.stringify(res.body));
 
-    //console.log(JSON.stringify(csvData.data[Math.floor(Math.random() * csvData.data.length)][0]));
-    //let randomUser = JSON.stringify(csvData.data[Math.floor(Math.random() * csvData.data.length)][0]);
-    //console.log("Random user: ", randomUser);
-    //var payload = JSON.stringify({ email: "aaa", password: "bbb" });
-    //var params =  { headers: { "Content-Type": "application/json" } }
-    //http.post(url, payload, params);
-    //var res=http.get(url);
-    //console.log(JSON.stringify(res));
 
 };
