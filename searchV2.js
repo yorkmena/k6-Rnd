@@ -2,6 +2,7 @@ import http from "k6/http"
 import {sleep} from "k6";
 import * as utils from './utils.js';
 import { check } from "k6";
+import { Counter } from "k6/metrics";
 
 /**
  * customizable paramerers 
@@ -16,6 +17,7 @@ const dates = 10; // number of future days (including today) for which you want 
 var count = 0;
 var language = ["bn-IN","hi-IN","or-IN","mr-IN","ml-IN","kn-IN","ta-IN","te-IN","gu-IN","pa-IN"];
 
+var myCounter = new Counter("my_counter");
 /**
  * Reads userId's from userids.csv file. which fetch data user personilization redis server.
  */
@@ -24,11 +26,11 @@ const csvData = utils.readCSV("./userids.csv");
 
 export let options = {
 
-  vus: 25,
-  duration: "5m",
+  vus: 30,
+  duration: "7m",
   setupTimeout: "400s",
   noConnectionReuse: true,
-  rps : 8,
+  rps : 10,
   userAgent: "MyK6UserAgentString/1.0"
 };
 
@@ -134,10 +136,10 @@ export default function(data) {
 
     //console.log(`${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`);
     let responses_moviecode = http.batch([
-        `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}`,
-        `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}&locale=${locale}`,
-        `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}`,
-        `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`
+        `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}`,
+        `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&locale=${locale}`,
+        `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}`,
+        `${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`
       ]);
       check(responses_moviecode[0], {
         "check response code": res => res.status === 200,
@@ -145,10 +147,10 @@ export default function(data) {
 
       /*
     let responses_cinemacode = http.batch([
-      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}`,
-      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}`,
-      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&locale=${locale}`,
-      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`
+      `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}`,
+      `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}`,
+      `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&locale=${locale}`,
+      `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`
     ]);
     check(responses_cinemacode[0], {
       "check response code": res => res.status === 200,

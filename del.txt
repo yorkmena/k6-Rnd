@@ -1,88 +1,531 @@
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&moviecode=O9O6L5&fromdate=2019-03-26&customerId=16567064&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&moviecode=O9O6L5&fromdate=2019-03-23&customerId=7213195&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&moviecode=O9O0LQ&fromdate=2019-03-18&customerId=407041226&groupResult=true 
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&moviecode=O9O5KU&fromdate=2019-03-19&customerId=267471130&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9O2II&fromdate=2019-03-26&customerId=118991314&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&moviecode=O9NT2E&fromdate=2019-03-26&customerId=339762595&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&moviecode=O9LC6Q&fromdate=2019-03-18&customerId=262807679&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&moviecode=O9O5JZ&fromdate=2019-03-19&customerId=23214715&groupResult=true 
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&moviecode=O9O5KS&fromdate=2019-03-26&customerId=581865850&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&moviecode=O9O2J9&fromdate=2019-03-23&customerId=221198447&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9O0SL&fromdate=2019-03-19&customerId=556810766&groupResult=true 
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&moviecode=O9O5KV&fromdate=2019-03-26&customerId=301345906&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&moviecode=O9LEDW&fromdate=2019-03-23&customerId=132708996&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9LC7B&fromdate=2019-03-25&customerId=2060418&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&moviecode=O9NJGN&fromdate=2019-03-25&customerId=244011112&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&moviecode=O9NXFF&fromdate=2019-03-26&customerId=300651275&groupResult=true 
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&moviecode=O9NRAI&fromdate=2019-03-27&customerId=309853258&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9O6L5&fromdate=2019-03-18&customerId=254329575&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9O761&fromdate=2019-03-18&customerId=186409737&groupResult=true 
-INFO[0040] top                                          
-INFO[0040] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9NY7Y&fromdate=2019-03-26&customerId=5784530&groupResult=true 
-INFO[0046] top                                          
-INFO[0046] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&moviecode=O9O0GX&fromdate=2019-03-24&customerId=221198447&groupResult=true 
-INFO[0054] top                                          
-INFO[0054] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&moviecode=O9NY8D&fromdate=2019-03-22&customerId=220583065&groupResult=true 
-INFO[0054] top                                          
-INFO[0054] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9O2J9&fromdate=2019-03-27&customerId=247648354&groupResult=true 
+INFO[0009] Date list created                            
+INFO[0014] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad 
+INFO[0016] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru 
+INFO[0018] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai 
+INFO[0020] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR 
+INFO[0025] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad 
+INFO[0027] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata 
+INFO[0028] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai 
+INFO[0032] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune 
+INFO[0034] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Penuganchiprolu 
+INFO[0034] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Rewari 
+INFO[0035] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kothamangalam 
+INFO[0035] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Villupuram 
+INFO[0035] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Nandakumar 
+INFO[0035] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Gokak 
+INFO[0035] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Sangamner 
+INFO[0035] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Tanuku 
+INFO[0036] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Sillod 
+INFO[0036] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Rajahmundry 
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] top                                          
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] en-IN                                        
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0036] top                                          
+INFO[0036] en-IN                                        
+INFO[0044] top                                          
+INFO[0044] en-IN                                        
+INFO[0044] top                                          
+INFO[0044] en-IN                                        
+INFO[0052] top                                          
+INFO[0052] en-IN                                        
+INFO[0055] top                                          
+INFO[0055] en-IN                                        
 INFO[0056] top                                          
-INFO[0056] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&moviecode=O9NU5K&fromdate=2019-03-23&customerId=20657514&groupResult=true 
+INFO[0056] en-IN                                        
+INFO[0057] top                                          
+INFO[0057] en-IN                                        
+INFO[0057] top                                          
+INFO[0057] en-IN                                        
 INFO[0058] top                                          
-INFO[0058] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&moviecode=O9LEDW&fromdate=2019-03-21&customerId=412456742&groupResult=true 
-INFO[0062] top                                          
-INFO[0062] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&moviecode=O9NKWL&fromdate=2019-03-26&customerId=9930478&groupResult=true 
-INFO[0062] top                                          
-INFO[0062] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&moviecode=O9O5KU&fromdate=2019-03-27&customerId=257977101&groupResult=true 
-INFO[0062] top                                          
-INFO[0062] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&moviecode=O9O0FI&fromdate=2019-03-27&customerId=294396359&groupResult=true 
-INFO[0062] top                                          
-INFO[0062] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9O1AD&fromdate=2019-03-26&customerId=526519286&groupResult=true 
-INFO[0064] top                                          
-INFO[0064] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&moviecode=O9I7HA&fromdate=2019-03-27&customerId=313843952&groupResult=true 
-INFO[0066] top                                          
-INFO[0066] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&moviecode=O9DQHA&fromdate=2019-03-23&customerId=249969524&groupResult=true 
-INFO[0069] top                                          
-INFO[0069] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9O5KV&fromdate=2019-03-23&customerId=5124094&groupResult=true 
-INFO[0071] top                                          
-INFO[0071] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&moviecode=O9O1HO&fromdate=2019-03-19&customerId=512178370&groupResult=true 
-INFO[0074] top                                          
-INFO[0074] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&moviecode=O9NT2E&fromdate=2019-03-26&customerId=668756767&groupResult=true 
+INFO[0058] en-IN                                        
+INFO[0058] top                                          
+INFO[0058] en-IN                                        
+INFO[0063] top                                          
+INFO[0063] en-IN                                        
+INFO[0063] top                                          
+INFO[0063] en-IN                                        
+INFO[0065] top                                          
+INFO[0065] en-IN                                        
+INFO[0068] top                                          
+INFO[0068] en-IN                                        
+INFO[0070] top                                          
+INFO[0070] en-IN                                        
+INFO[0070] top                                          
+INFO[0070] en-IN                                        
+INFO[0073] top                                          
+INFO[0073] en-IN                                        
 INFO[0076] top                                          
-INFO[0076] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&moviecode=O9O0NI&fromdate=2019-03-22&customerId=286566957&groupResult=true 
+INFO[0076] en-IN                                        
+INFO[0076] top                                          
+INFO[0076] en-IN                                        
+INFO[0077] top                                          
+INFO[0077] en-IN                                        
+INFO[0077] top                                          
+INFO[0077] en-IN                                        
 INFO[0078] top                                          
-INFO[0078] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&moviecode=O9NQL9&fromdate=2019-03-23&customerId=227319953&groupResult=true 
-INFO[0081] top                                          
-INFO[0081] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&moviecode=O9O6DB&fromdate=2019-03-23&customerId=279749691&groupResult=true 
-INFO[0081] top                                          
-INFO[0081] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&moviecode=O9O0BV&fromdate=2019-03-21&customerId=425100470&groupResult=true 
+INFO[0078] en-IN                                        
+INFO[0087] top                                          
+INFO[0087] en-IN                                        
+INFO[0087] top                                          
+INFO[0087] en-IN                                        
+INFO[0089] top                                          
+INFO[0089] en-IN                                        
+INFO[0089] top                                          
+INFO[0089] en-IN                                        
 INFO[0091] top                                          
-INFO[0091] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&moviecode=O9O772&fromdate=2019-03-24&customerId=299482201&groupResult=true 
+INFO[0091] en-IN                                        
 INFO[0093] top                                          
-INFO[0093] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&moviecode=O9O0NI&fromdate=2019-03-24&customerId=186041761&groupResult=true 
+INFO[0093] en-IN                                        
 INFO[0095] top                                          
-INFO[0095] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&moviecode=O9O9U7&fromdate=2019-03-26&customerId=9595752&groupResult=true 
+INFO[0095] en-IN                                        
 INFO[0096] top                                          
-INFO[0096] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&moviecode=O9NY8D&fromdate=2019-03-22&customerId=240267426&groupResult=true 
-INFO[0097] top                                          
-INFO[0097] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&moviecode=O9O6BJ&fromdate=2019-03-22&customerId=582996198&groupResult=true 
-INFO[0099] top                                          
-INFO[0099] http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&moviecode=O9O5KT&fromdate=2019-03-27&customerId=527383234&groupResult=true
+INFO[0096] en-IN                                        
+INFO[0096] top                                          
+INFO[0096] en-IN                                        
+INFO[0098] top                                          
+INFO[0098] en-IN                                        
+INFO[0100] top                                          
+INFO[0100] en-IN                                        
+INFO[0102] top                                          
+INFO[0102] en-IN                                        
+INFO[0104] top                                          
+INFO[0104] en-IN                                        
+INFO[0108] top                                          
+INFO[0108] en-IN                                        
+INFO[0108] top                                          
+INFO[0108] en-IN                                        
+INFO[0108] top                                          
+INFO[0108] en-IN                                        
+INFO[0109] top                                          
+INFO[0109] en-IN                                        
+INFO[0113] top                                          
+INFO[0113] en-IN                                        
+INFO[0114] top                                          
+INFO[0114] en-IN                                        
+INFO[0120] top                                          
+INFO[0120] en-IN                                        
+INFO[0123] top                                          
+INFO[0123] en-IN                                        
+INFO[0125] top                                          
+INFO[0125] en-IN                                        
+WARN[0125] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O6DD&fromdate=2019-03-21&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0125] top                                          
+INFO[0125] en-IN                                        
+INFO[0128] top                                          
+INFO[0128] en-IN                                        
+WARN[0128] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NRAL&fromdate=2019-03-18&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0128] top                                          
+INFO[0128] en-IN                                        
+WARN[0129] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NRAL&fromdate=2019-03-18&customerId=503820084: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0129] top                                          
+INFO[0129] en-IN                                        
+WARN[0133] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9NTSQ&fromdate=2019-03-18&customerId=457951358: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0133] top                                          
+INFO[0133] en-IN                                        
+WARN[0133] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9NTSQ&fromdate=2019-03-18&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0133] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9NTSQ&fromdate=2019-03-18&customerId=457951358&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0133] top                                          
+INFO[0133] en-IN                                        
+WARN[0138] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O6DB&fromdate=2019-03-21&customerId=232801193&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0138] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O6DB&fromdate=2019-03-21&customerId=232801193: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0138] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O6DB&fromdate=2019-03-21&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0138] top                                          
+INFO[0138] en-IN                                        
+INFO[0142] top                                          
+INFO[0142] en-IN                                        
+INFO[0143] top                                          
+INFO[0143] en-IN                                        
+INFO[0143] top                                          
+INFO[0143] en-IN                                        
+WARN[0147] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0LQ&fromdate=2019-03-24&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0147] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0LQ&fromdate=2019-03-24&customerId=320299322&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0148] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0LQ&fromdate=2019-03-24&customerId=320299322: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0148] top                                          
+INFO[0148] en-IN                                        
+INFO[0150] top                                          
+INFO[0150] en-IN                                        
+WARN[0151] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5KV&fromdate=2019-03-20&customerId=31137070&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0151] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5KV&fromdate=2019-03-20&customerId=31137070: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0152] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5KV&fromdate=2019-03-20&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0152] top                                          
+INFO[0152] en-IN                                        
+INFO[0152] top                                          
+INFO[0152] en-IN                                        
+INFO[0156] top                                          
+INFO[0156] en-IN                                        
+WARN[0156] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O5KR&fromdate=2019-03-23&customerId=13273094&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0156] top                                          
+INFO[0156] en-IN                                        
+WARN[0156] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O5KR&fromdate=2019-03-23&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0156] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O5KR&fromdate=2019-03-23&customerId=13273094: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0156] top                                          
+INFO[0156] en-IN                                        
+INFO[0157] top                                          
+INFO[0157] en-IN                                        
+INFO[0158] top                                          
+INFO[0158] en-IN                                        
+WARN[0160] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NI7P&fromdate=2019-03-26&customerId=584458364: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0160] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NI7P&fromdate=2019-03-26&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0161] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NI7P&fromdate=2019-03-26&customerId=584458364&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0161] top                                          
+INFO[0161] en-IN                                        
+INFO[0162] top                                          
+INFO[0162] en-IN                                        
+WARN[0173] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9O6DG&fromdate=2019-03-18&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0173] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9O6DG&fromdate=2019-03-18&customerId=400596422&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0173] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9O6DG&fromdate=2019-03-18&customerId=400596422: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0173] top                                          
+INFO[0173] en-IN                                        
+INFO[0177] all                                          
+INFO[0177] gu-IN                                        
+WARN[0184] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9NPY2&fromdate=2019-03-26&customerId=11468555: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0184] top                                          
+INFO[0184] en-IN                                        
+WARN[0185] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O6CB&fromdate=2019-03-25&customerId=118991314: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0185] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O6CB&fromdate=2019-03-25&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0185] all                                          
+INFO[0185] te-IN                                        
+WARN[0186] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9O0BV&fromdate=2019-03-19&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0186] top                                          
+INFO[0186] en-IN                                        
+WARN[0188] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O8D6&fromdate=2019-03-21&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0189] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O8D6&fromdate=2019-03-21&customerId=294839769&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0189] top                                          
+INFO[0189] en-IN                                        
+WARN[0189] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5L4&fromdate=2019-03-23&customerId=5462790&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0189] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5L4&fromdate=2019-03-23&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0189] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5L4&fromdate=2019-03-23&customerId=5462790: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0189] all                                          
+INFO[0189] mr-IN                                        
+WARN[0189] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&$moviecode=O9NY8D&fromdate=2019-03-21&customerId=338855387&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0190] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&$moviecode=O9NY8D&fromdate=2019-03-21&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0190] top                                          
+INFO[0190] en-IN                                        
+WARN[0193] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&$moviecode=O9O0SL&fromdate=2019-03-19&customerId=483291818&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0193] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&$moviecode=O9O0SL&fromdate=2019-03-19&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0193] top                                          
+INFO[0193] en-IN                                        
+WARN[0194] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9LEDW&fromdate=2019-03-26&customerId=29074333&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0194] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9LEDW&fromdate=2019-03-26&customerId=29074333: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0194] top                                          
+INFO[0194] en-IN                                        
+WARN[0198] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O6DC&fromdate=2019-03-21&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0199] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O6DC&fromdate=2019-03-21&customerId=594426731&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0199] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O6DC&fromdate=2019-03-21&customerId=594426731: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0199] top                                          
+INFO[0199] en-IN                                        
+INFO[0200] top                                          
+INFO[0200] en-IN                                        
+WARN[0202] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0MU&fromdate=2019-03-20&customerId=132458198&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0202] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0MU&fromdate=2019-03-20&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0202] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0MU&fromdate=2019-03-20&customerId=132458198: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0202] top                                          
+INFO[0202] en-IN                                        
+WARN[0203] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&$moviecode=O9NMHE&fromdate=2019-03-18&customerId=286566957: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0203] all                                          
+INFO[0203] mr-IN                                        
+ERRO[0203] TypeError: Cannot read property 'movie_id' of undefined
+	at github.com/yorkmena/k6-Rnd/searchV2.js:129:25(113)
+ 
+INFO[0203] top                                          
+INFO[0203] en-IN                                        
+WARN[0204] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9O1EZ&fromdate=2019-03-27&customerId=80628156&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0204] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9O1EZ&fromdate=2019-03-27&customerId=80628156: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0204] top                                          
+INFO[0204] en-IN                                        
+INFO[0206] top                                          
+INFO[0206] en-IN                                        
+INFO[0207] all                                          
+INFO[0207] te-IN                                        
+ERRO[0207] TypeError: Cannot read property 'movie_id' of undefined
+	at github.com/yorkmena/k6-Rnd/searchV2.js:129:25(113)
+ 
+INFO[0207] top                                          
+INFO[0207] en-IN                                        
+WARN[0210] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9KRE9&fromdate=2019-03-19&customerId=141348006&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0210] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9KRE9&fromdate=2019-03-19&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0210] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9KRE9&fromdate=2019-03-19&customerId=141348006: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0210] all                                          
+INFO[0210] gu-IN                                        
+WARN[0212] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&$moviecode=O9O6DC&fromdate=2019-03-25&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0212] all                                          
+INFO[0212] te-IN                                        
+WARN[0212] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O0LP&fromdate=2019-03-19&customerId=304891326&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0212] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O0LP&fromdate=2019-03-19&customerId=304891326: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0212] all                                          
+INFO[0212] gu-IN                                        
+INFO[0212] top                                          
+INFO[0212] en-IN                                        
+WARN[0216] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NXJP&fromdate=2019-03-22&customerId=1013740214&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0216] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NXJP&fromdate=2019-03-22&customerId=1013740214: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0216] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NXJP&fromdate=2019-03-22&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0216] all                                          
+INFO[0216] kn-IN                                        
+ERRO[0216] TypeError: Cannot read property 'movie_id' of undefined
+	at github.com/yorkmena/k6-Rnd/searchV2.js:129:25(113)
+ 
+INFO[0216] top                                          
+INFO[0216] en-IN                                        
+WARN[0216] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9NRK1&fromdate=2019-03-27&customerId=284092979&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0216] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9NRK1&fromdate=2019-03-27&customerId=284092979: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0216] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9NRK1&fromdate=2019-03-27&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0216] all                                          
+INFO[0216] ta-IN                                        
+WARN[0217] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5IU&fromdate=2019-03-20&customerId=6218497&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0217] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5IU&fromdate=2019-03-20&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0217] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5IU&fromdate=2019-03-20&customerId=6218497: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0217] top                                          
+INFO[0217] en-IN                                        
+WARN[0217] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NJGZ&fromdate=2019-03-21&customerId=607872957&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0217] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NJGZ&fromdate=2019-03-21&customerId=607872957: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0217] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NJGZ&fromdate=2019-03-21&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0217] all                                          
+INFO[0217] pa-IN                                        
+WARN[0218] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0GX&fromdate=2019-03-20&customerId=25224007&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0219] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0GX&fromdate=2019-03-20&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0219] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0GX&fromdate=2019-03-20&customerId=25224007: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0219] all                                          
+INFO[0219] ta-IN                                        
+WARN[0221] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9NT2E&fromdate=2019-03-23&customerId=255145653&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0221] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9NT2E&fromdate=2019-03-23&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0221] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9NT2E&fromdate=2019-03-23&customerId=255145653: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0221] all                                          
+INFO[0221] kn-IN                                        
+ERRO[0221] TypeError: Cannot read property 'movie_id' of undefined
+	at github.com/yorkmena/k6-Rnd/searchV2.js:129:25(113)
+ 
+INFO[0221] top                                          
+INFO[0221] en-IN                                        
+INFO[0221] all                                          
+INFO[0221] te-IN                                        
+INFO[0225] all                                          
+INFO[0225] or-IN                                        
+WARN[0233] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5KR&fromdate=2019-03-19&customerId=10043296&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0233] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5KR&fromdate=2019-03-19&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0233] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O5KR&fromdate=2019-03-19&customerId=10043296: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0233] all                                          
+INFO[0233] ml-IN                                        
+ERRO[0233] TypeError: Cannot read property 'movie_id' of undefined
+	at github.com/yorkmena/k6-Rnd/searchV2.js:129:25(113)
+ 
+INFO[0233] top                                          
+INFO[0233] en-IN                                        
+INFO[0237] top                                          
+INFO[0237] en-IN                                        
+INFO[0237] top                                          
+INFO[0237] en-IN                                        
+INFO[0241] top                                          
+INFO[0241] en-IN                                        
+INFO[0242] top                                          
+INFO[0242] en-IN                                        
+INFO[0245] top                                          
+INFO[0245] en-IN                                        
+WARN[0246] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&$moviecode=O9LEDW&fromdate=2019-03-26&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0246] all                                          
+INFO[0246] or-IN                                        
+WARN[0249] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&$moviecode=O9O771&fromdate=2019-03-24&customerId=331199187&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0249] all                                          
+INFO[0249] ta-IN                                        
+ERRO[0249] TypeError: Cannot read property 'movie_id' of undefined
+	at github.com/yorkmena/k6-Rnd/searchV2.js:129:25(113)
+ 
+INFO[0249] top                                          
+INFO[0249] en-IN                                        
+INFO[0249] top                                          
+INFO[0249] en-IN                                        
+WARN[0250] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9O5KT&fromdate=2019-03-20&customerId=296982151&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0250] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9O5KT&fromdate=2019-03-20&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0250] all                                          
+INFO[0250] gu-IN                                        
+WARN[0253] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9NT2E&fromdate=2019-03-18&customerId=217283101&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0253] all                                          
+INFO[0253] or-IN                                        
+ERRO[0253] TypeError: Cannot read property 'movie_id' of undefined
+	at github.com/yorkmena/k6-Rnd/searchV2.js:129:25(113)
+ 
+INFO[0253] top                                          
+INFO[0253] en-IN                                        
+WARN[0254] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O76M&fromdate=2019-03-25&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0254] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O76M&fromdate=2019-03-25&customerId=1017988970&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0254] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O76M&fromdate=2019-03-25&customerId=1017988970: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0254] all                                          
+INFO[0254] ta-IN                                        
+INFO[0255] top                                          
+INFO[0255] en-IN                                        
+WARN[0259] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&$moviecode=O9O0GT&fromdate=2019-03-27&customerId=549778992: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0259] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&$moviecode=O9O0GT&fromdate=2019-03-27&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0259] all                                          
+INFO[0259] bn-IN                                        
+WARN[0260] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9LC7B&fromdate=2019-03-23&customerId=13690874&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0260] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9LC7B&fromdate=2019-03-23&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0260] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9LC7B&fromdate=2019-03-23&customerId=13690874: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0260] top                                          
+INFO[0260] en-IN                                        
+WARN[0262] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9L0LB&fromdate=2019-03-25&customerId=27731637&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0262] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9L0LB&fromdate=2019-03-25&customerId=27731637: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0262] all                                          
+INFO[0262] ta-IN                                        
+WARN[0263] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O6L5&fromdate=2019-03-26&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0263] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O6L5&fromdate=2019-03-26&customerId=13323762&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0264] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9O6L5&fromdate=2019-03-26&customerId=13323762: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0264] top                                          
+INFO[0264] en-IN                                        
+WARN[0264] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&$moviecode=O9O0SL&fromdate=2019-03-20&customerId=483237542&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0264] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&$moviecode=O9O0SL&fromdate=2019-03-20&customerId=483237542: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0264] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&$moviecode=O9O0SL&fromdate=2019-03-20&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0264] all                                          
+INFO[0264] ml-IN                                        
+WARN[0267] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9LEDW&fromdate=2019-03-23&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0267] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9LEDW&fromdate=2019-03-23&customerId=301290968: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0267] top                                          
+INFO[0267] en-IN                                        
+WARN[0267] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9LC6T&fromdate=2019-03-22&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0267] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9LC6T&fromdate=2019-03-22&customerId=13374664&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0267] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9LC6T&fromdate=2019-03-22&customerId=13374664: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0267] top                                          
+INFO[0267] en-IN                                        
+WARN[0270] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Rewari&$moviecode=O9O5IU&fromdate=2019-03-25&locale=gu-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0270] top                                          
+INFO[0270] en-IN                                        
+WARN[0273] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&$moviecode=O9O0SL&fromdate=2019-03-20&customerId=578072206&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0273] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&$moviecode=O9O0SL&fromdate=2019-03-20&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0273] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&$moviecode=O9O0SL&fromdate=2019-03-20&customerId=578072206: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0273] top                                          
+INFO[0273] en-IN                                        
+INFO[0275] top                                          
+INFO[0275] en-IN                                        
+WARN[0276] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0FI&fromdate=2019-03-19&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0276] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0FI&fromdate=2019-03-19&customerId=4709322&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0276] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O0FI&fromdate=2019-03-19&customerId=4709322: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0276] top                                          
+INFO[0276] en-IN                                        
+WARN[0277] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&$moviecode=O9O0NI&fromdate=2019-03-26&customerId=284337837&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0277] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&$moviecode=O9O0NI&fromdate=2019-03-26&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0277] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&$moviecode=O9O0NI&fromdate=2019-03-26&customerId=284337837: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0277] all                                          
+INFO[0277] or-IN                                        
+INFO[0278] top                                          
+INFO[0278] en-IN                                        
+INFO[0279] top                                          
+INFO[0279] en-IN                                        
+WARN[0281] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O5KR&fromdate=2019-03-27&customerId=254615365&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0281] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O5KR&fromdate=2019-03-27&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0281] top                                          
+INFO[0281] en-IN                                        
+INFO[0284] top                                          
+INFO[0284] en-IN                                        
+INFO[0285] top                                          
+INFO[0285] en-IN                                        
+INFO[0287] top                                          
+INFO[0287] en-IN                                        
+WARN[0294] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9NU15&fromdate=2019-03-27&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0294] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9NU15&fromdate=2019-03-27&customerId=609317747&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0294] top                                          
+INFO[0294] en-IN                                        
+WARN[0297] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O5IU&fromdate=2019-03-27&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0297] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O5IU&fromdate=2019-03-27&customerId=487563082&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0297] top                                          
+INFO[0297] en-IN                                        
+WARN[0297] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Delhi/NCR&$moviecode=O9O5IU&fromdate=2019-03-27&customerId=487563082: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0297] top                                          
+INFO[0297] en-IN                                        
+WARN[0297] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9O772&fromdate=2019-03-18&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0297] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9O772&fromdate=2019-03-18&customerId=259763493: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0297] top                                          
+INFO[0297] en-IN                                        
+WARN[0301] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9NXFF&fromdate=2019-03-19&customerId=253425683: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0301] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9NXFF&fromdate=2019-03-19&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0302] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9NXFF&fromdate=2019-03-19&customerId=253425683&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0302] top                                          
+INFO[0302] en-IN                                        
+WARN[0302] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O0NI&fromdate=2019-03-25&customerId=253425683&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0302] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O0NI&fromdate=2019-03-25&customerId=253425683: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0302] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9O0NI&fromdate=2019-03-25&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0302] top                                          
+INFO[0302] en-IN                                        
+WARN[0305] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9NVOW&fromdate=2019-03-22&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0305] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Bengaluru&$moviecode=O9NVOW&fromdate=2019-03-22&customerId=18762430: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0305] top                                          
+INFO[0305] en-IN                                        
+INFO[0308] top                                          
+INFO[0308] en-IN                                        
+WARN[0309] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NXFF&fromdate=2019-03-26&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0310] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NXFF&fromdate=2019-03-26&customerId=510997060&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0310] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Mumbai&$moviecode=O9NXFF&fromdate=2019-03-26&customerId=510997060: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0310] top                                          
+INFO[0310] en-IN                                        
+INFO[0312] top                                          
+INFO[0312] en-IN                                        
+INFO[0312] top                                          
+INFO[0312] en-IN                                        
+WARN[0320] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&$moviecode=O9O5IU&fromdate=2019-03-22&customerId=139033756&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0321] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Ahmedabad&$moviecode=O9O5IU&fromdate=2019-03-22&customerId=139033756: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0321] top                                          
+INFO[0321] en-IN                                        
+INFO[0323] top                                          
+INFO[0323] en-IN                                        
+WARN[0324] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9KZZ1&fromdate=2019-03-21&customerId=655628707: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0324] top                                          
+INFO[0324] en-IN                                        
+WARN[0327] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9NT2E&fromdate=2019-03-18&customerId=309853258: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0327] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Chennai&$moviecode=O9NT2E&fromdate=2019-03-18&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0327] top                                          
+INFO[0327] en-IN                                        
+WARN[0330] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&$moviecode=O9O0GT&fromdate=2019-03-18&customerId=29074333&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0331] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&$moviecode=O9O0GT&fromdate=2019-03-18&customerId=29074333: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0331] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Kolkata&$moviecode=O9O0GT&fromdate=2019-03-18&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0331] top                                          
+INFO[0331] en-IN                                        
+WARN[0333] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9LEDU&fromdate=2019-03-23&customerId=243979058&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0333] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Hyderabad&$moviecode=O9LEDU&fromdate=2019-03-23&customerId=243979058: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0333] top                                          
+INFO[0333] en-IN                                        
+WARN[0335] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&$moviecode=O9O0SL&fromdate=2019-03-18&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+WARN[0335] Request Failed                                error="Get http://internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com/v2/movies/search/?city=Pune&$moviecode=O9O0SL&fromdate=2019-03-18&customerId=388122366&groupResult=true&locale=en-IN: net/http: request canceled (Client.Timeout exceeded while awaiting headers)"
+INFO[0335] top                                          
+INFO[0335] en-IN           
