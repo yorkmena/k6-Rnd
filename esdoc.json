@@ -1,0 +1,6 @@
+{
+  "source": ".",
+  "recurseDepth": 10,
+  "excludes": ["node_modules/"],
+  "destination": "./docs"
+}

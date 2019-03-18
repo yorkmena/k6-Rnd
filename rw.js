@@ -16,8 +16,6 @@ console.log(Math.random().toFixed(1));
 }
 
 
-
-
 //var value = "Agra"
 
 //var arr = [1, 2, 3, 4, 5, 3]

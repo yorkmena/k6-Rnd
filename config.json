@@ -1,8 +1,7 @@
 {
-"vus": 1,
-"duration": "3m",
-//K6_SETUP_TIMEOUT: "60s",
-"setupTimeout": "120s",
-"iterations": 2,
-//"httpDebug": "full"
+"vus": 20,
+"duration": "1m",
+"setupTimeout": "300s",
+"noConnectionReuse": true,
+"userAgent": "MyK6UserAgentString/1.0"
 }
