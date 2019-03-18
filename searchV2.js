@@ -6,7 +6,7 @@ import { check } from "k6";
 /**
  * customizable paramerers 
  */
-let Protocol = "https://"
+let Protocol = "http://"
 let Host = "internal-digital-movies-app-alb-1839613365.ap-south-1.elb.amazonaws.com" //"apiproxy.paytm.com"
 let searchV2API = "/v2/movies/search/\?"
 let citiesV1API = "/v1/movies/cities"
