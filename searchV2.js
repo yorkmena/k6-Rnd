@@ -27,7 +27,7 @@ const csvData = utils.readCSV("./userids.csv");
 export let options = {
 
   vus: 30,
-  duration: "7m",
+  duration: "5m",
   setupTimeout: "400s",
   noConnectionReuse: true,
   rps : 10,
