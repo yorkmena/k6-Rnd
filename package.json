@@ -1,0 +1,25 @@
+{
+  "name": "k6-rnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yorkmena/k6-Rnd.git"
+  },
+  "author": "ashish mathur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yorkmena/k6-Rnd/issues"
+  },
+  "homepage": "https://github.com/yorkmena/k6-Rnd#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "papaparse": "^4.6.3",
+    "probability-distributions": "^0.9.1",
+    "sleep": "^6.0.0"
+  }
+}
