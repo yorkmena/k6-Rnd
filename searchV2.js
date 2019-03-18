@@ -22,12 +22,12 @@ var count = 0;
 const csvData = utils.readCSV("./userids.csv");
 
 export let options = {
-  
-  "vus": 20,
-  "duration": "1m",
-  "setupTimeout": "300s",
-  "noConnectionReuse": true,
-  "userAgent": "MyK6UserAgentString/1.0"
+
+  vus: 20,
+  duration: "1m",
+  setupTimeout: "400s",
+  noConnectionReuse: true,
+  userAgent: "MyK6UserAgentString/1.0"
 };
 
 
