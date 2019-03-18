@@ -2,6 +2,7 @@ import http from "k6/http"
 import {sleep} from "k6";
 import * as utils from './utils.js';
 import { check } from "k6";
+import { lang } from "moment";
 
 /**
  * customizable paramerers 
@@ -14,6 +15,7 @@ const NumberOfAllCities = 10;
 const isIncludeAllCities = true; // run test with only top cities or not?
 const dates = 10; // number of future days (including today) for which you want to run test.
 var count = 0;
+var lang = [hi-IN,bn-IN, or-IN, mr-IN, ml-IN, kn-IN, ta-IN, te-IN, gu-IN, pa-IN]
 
 /**
  * Reads userId's from userids.csv file. which fetch data user personilization redis server.
@@ -23,10 +25,11 @@ const csvData = utils.readCSV("./userids.csv");
 
 export let options = {
 
-  vus: 20,
-  duration: "1m",
+  vus: 25,
+  duration: "5m",
   setupTimeout: "400s",
   noConnectionReuse: true,
+  rps : 8,
   userAgent: "MyK6UserAgentString/1.0"
 };
 
@@ -100,6 +103,7 @@ export default function(data) {
     //console.log("Inside default function");
     //var count = `${__ITER}`;  
     count = count +1;
+    var locale;
 
     if(count%5 == 0){
       var randomTcity =  data.all_cities[Math.floor(Math.random() * data.top_city.length)];
@@ -109,52 +113,48 @@ export default function(data) {
       var randomTcity = data.top_city[Math.floor(Math.random() * data.top_city.length)];
       console.log("top");
     }
+
+    if(count%5 == 0){
+      locale = lang[Math.floor(Math.random() * lang.length)]
+    }
+    else{
+      locale = "en-IN";
+    }
+      console.log(locale);
     //console.log(`VU: ${__VU}  -  ITER: ${__ITER}`);
     //console.log(`VU: ${__VU}`);
     //console.log(randomTcity);
     
     //console.log(JSON.stringify(data));
     var randomUser = csvData.data[Math.floor(Math.random() * csvData.data.length)].id;
-    //console.log(randomUser);
     var randomMovieCode =  data.data[randomTcity].movie_id[Math.floor(Math.random() * data.data[randomTcity].movie_id.length)];
-    //console.log(randomMovieCode);
     var randomCinemaCode =  data.data[randomTcity].cinema_id[Math.floor(Math.random() * data.data[randomTcity].cinema_id.length)];
-    //console.log(randomCinemaCode);
     var date = data.date[Math.floor(Math.random() * data.date.length)];
-    //console.log(date);
     
     var baseurl = `${Protocol}${Host}${searchV2API}`
 
-    //console.log(`${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true`);
+    //console.log(`${baseurl}city=${randomTcity}&moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`);
     let responses_moviecode = http.batch([
         `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}`,
-        `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}`,
+        `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}&locale=${locale}`,
         `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}`,
-        `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true`
+        `${baseurl}city=${randomTcity}&$moviecode=${randomMovieCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`
       ]);
       check(responses_moviecode[0], {
         "check response code": res => res.status === 200,
       });
 
-    // url = Protocol+Host+searchV2API+"city=" +randomTcity+ "&moviecode=" +randomMovieCode;
-     //url = Protocol+Host+searchV2API+"city=" +randomTcity+ "&moviecode=" +randomMovieCode+ "&fromdate=" +date
-     //url = Protocol+Host+searchV2API+"city=" +randomTcity+ "&moviecode=" +randomMovieCode+ "&customerId=" +randomUser+ "&groupResult=" +true
-     //var url = Protocol+Host+searchV2API+"city=" +randomTcity+ "&moviecode=" +randomMovieCode+ "&fromdate=" +date+ "&customerId=" +randomUser+ "&groupResult=" +true
-     //console.log(url);
-    // http.get(url);
-    
-    //var res = http.get(url);
-    //console.log(JSON.stringify(res.body));
+      /*
     let responses_cinemacode = http.batch([
       `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}`,
       `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}`,
-      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}`,
-      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true`
+      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&locale=${locale}`,
+      `${baseurl}city=${randomTcity}&$cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=${randomUser}&groupResult=true&locale=${locale}`
     ]);
     check(responses_cinemacode[0], {
       "check response code": res => res.status === 200,
     });
-
+*/
     //var url2 = `${baseurl}city=${randomTcity}&cinemacode=${randomCinemaCode}&fromdate=${date}&customerId=+${randomUser}&groupResult=true`
     //console.log(url2);
     //counter = counter+1;
